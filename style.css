@@ -193,6 +193,7 @@
     background-image: url(https://wallpapercave.com/wp/wp4288360.jpg);
     background-size: cover;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .seventh-article img {
@@ -234,4 +235,56 @@
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
+}
+
+
+.ninth-article img {
+    width: 80%;
+}
+
+.ninth-article a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ninth-article {
+    text-align: center;
+}
+
+.ninth-article p {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+
+
+.tenth-article img {
+    width: 80%;
+}
+
+.tenth-article a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tenth-article {
+    text-align: center;
+}
+
+.tenth-article p {
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .second-row{
+        flex-direction: column;
+    }
+    .third-row{
+        flex-direction: column;
+    }
 }
