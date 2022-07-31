@@ -287,4 +287,7 @@
     .third-row{
         flex-direction: column;
     }
+    .navbar{
+        flex-direction: column;
+    }
 }
