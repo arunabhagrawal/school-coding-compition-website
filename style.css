@@ -289,5 +289,6 @@
     }
     .navbar{
         flex-direction: column;
+        width: fit-content;
     }
 }
