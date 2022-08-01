@@ -280,15 +280,44 @@
     text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-    .second-row{
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    width: 3px;
+}
+
+@media only screen and (max-width: 520px) {
+
+    .second-row {
         flex-direction: column;
     }
-    .third-row{
+
+
+    .third-row {
         flex-direction: column;
     }
-    .navbar{
+
+    .navlist {
         flex-direction: column;
-        width: fit-content;
     }
+
+    .navbar {
+        flex-direction: column;
+        height: fit-content;
+        position: inherit;
+    }
+
+    .h-nav {
+        height: 72px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
 }
